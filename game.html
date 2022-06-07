@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="user-color">Your Choice: <span id="user-choice"></span></h2>
+        <h2 class="pc-color">Computer Choice: <span id="computer-choice"></span></h2>
+        <h2 class="result">Result: <span id="result"></span>
+        </h2>
+
+        <img id="rock" src="1.jpg" alt=""><img id="paper" src="2.jpg" alt=""><img id="scissor" src="3.jpg" alt="">
+        <div class="score-box">
+            <h2 class="user-color"> user Score:<span id="user-s"></span></h2>
+            <h2 class="pc-color"> pc Score:<span id="pc-s"></span></h2>
+        </div>
+
+        <a class="a-style" id="modal" href="#openModal">Finished! click here</a>
+        <div id="openModal" class="modalDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>Attention</h2>
+                <p>This game has 10 point!</p>
+                <p>For start again please refresh the games page</p>
+            </div>
+        </div>
+
+        <script src="game.js" charset="utf-8"></script>
+</body>
+
+</html>

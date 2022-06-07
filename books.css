@@ -1,0 +1,122 @@
+body{
+    margin: 0 auto ;
+    box-sizing: border-box;
+    background-image: linear-gradient(white, rgb(148, 218, 241));
+   
+}
+.container{
+border-radius: 30px;
+display: flex;
+ flex-direction: row;
+justify-content: center;
+margin-top: 20px;
+
+
+}
+h3{
+    margin-left: 10px;
+  text-align: center;
+  background-color: blue;
+  border-radius: 40px;
+  color: white;
+}
+.form-class{
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-top: 40px;
+    width: 500px;
+  background-color: black;
+}
+
+.books-list{
+
+    width:500px;
+    font-size: 20px;
+ 
+}
+
+select{
+    width: 80%;
+margin-left: 10%;
+    margin-top: 30px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+   border: 1px solid lightblue;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+
+.form-class input{
+    width: 80%;
+margin-left: 10%;
+    margin-top: 30px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+   border: 1px solid lightblue;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+#btn-txt{
+  margin-top: 20px 0;
+  background: rgba(225,225,225,.5);
+  border-radius: 6px;
+}
+.btn{
+    margin-top:30px;
+    margin-bottom: 20px;
+    background:blue;
+    color: #fff;
+    border-radius: 44px;
+    cursor: pointer;
+    width: 80%;
+    height: 33px;
+    margin-left: 10%;
+}
+p{
+    color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.margin-top-bottom{
+  margin: 20px;
+}
+.center-select{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (max-width:1024px) {
+
+ .container{  
+  align-items: center;
+ justify-content: center;
+   font-size: 18px;
+   display: flex;
+  flex-direction: column;
+ 
+}
+ .form-class{
+    width: 600px;
+    
+}
+.books-list{
+  width: 600px;
+  padding: 30px;
+} 
+
+h3{
+color: blue;
+border: 1px solid grey;
+background-color: black;
+border-radius: 40px;
+
+}
+
+}

@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+
+    <h1>Geographical quiz</h1>
+    <form id="quiz" name="quiz">
+        <div class="border">
+            <p id="q1">where is the capital of iran?</p>
+            <input id="textbox" type="tex-box" name="question1">
+            <br> <br><span>you should type with capital</span>
+        </div>
+        <div class="border">
+            <p id="q2">What is the name of the planet covered in clouds?</p>
+            <input type="radio" id="mc" name="question2" value="hartford">hartford <br>
+            <input type="radio" id="mc" name="question2" value="heartford">heartford <br> <br>
+            <span>you should choose One Answer</span>
+        </div>
+        <div class="border">
+            <p id="q3">what is the capital of newYork?</p>
+            <input type="radio" id="mc" name="question3" value="Albany">Albany<br>
+            <input type="radio" id="mc" name="question3" value="all benys">All benys<br> <br>
+
+        </div>
+
+        <div class="border">
+
+            <p id="q4">The blue color of Neptune is due to the presence of which gas on this planet?</p>
+            <input type="radio" id="mc" name="question4" value="methane">methane<br>
+            <input type="radio" id="mc" name="question4" value="hydrogen">hydrogen <br> <br>
+            <span>you sholud choose One Answer</span>
+        </div>
+        <div class="border">
+            <p id="q5">how many planet in solar system?</p>
+            <input type="radio" id="mc" name="question5" value="eight">eight<br>
+            <input type="radio" id="mc" name="question5" value="six">six<br> <br>
+            <span>you sholud choose One Answer</span>
+        </div>
+        <div class="border">
+            <p id="q6">Which of the solar system planets is the densest?</p>
+            <input type="radio" id="mc" name="question6" value="Mars">Mars<br>
+            <input type="radio" id="mc" name="question6" value="the earth">the earth<br> <br>
+            <span>you sholud choose One Answer</span> <br>
+
+        </div>
+    </form>
+    <div class="center">
+        <input type="button" name="" id="button" value="Im Finished" onclick="check()">
+        <p id="messages"></p>
+        <p id="number-correct"></p>
+        <img id="picture">
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+
+</html>

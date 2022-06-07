@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books API</title>
+    <link rel="stylesheet" href="books.css">
+</head>
+<body>
+    <div class="container">
+        <div class="books-list">
+            <h3>Books List</h3>
+            <ol id="books" class="list-group">
+            </ol>
+        </div>
+        <div class="form-class">
+            <input placeholder="name" type="text" id="book-name">
+            <select name="" id="author">
+                <option value="">Choose Author</option>
+            </select>
+            <select name="" id="genre">
+                <option value="">choose Genre</option>
+            </select>
+            <input placeholder="description" type="text" name="" id="description">
+            <input placeholder="isbn" type="text" name="" id="isbn">
+            <button type="submit" class="btn" onclick="createBooks()">create book</button>
+            <p id="result"></p>
+            <p id="second-result"></p>
+            <p id="third-result"></p>
+        </div>
+    </div>
+
+
+    <script src="books.js"></script>
+
+</body>
+
+</html>

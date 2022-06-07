@@ -1,0 +1,93 @@
+body{
+    width: 1024px;
+    margin: 0 auto ;
+    background-color: darkblue;
+}
+.animation{
+    width: 100%;
+    height: 20%;
+}
+
+h2{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    animation: grow 2s ease-in 1s infinite;
+    
+}
+@keyframes grow{
+    0%{font-size: 10px;}
+50%{font-size: 40px;}
+    100%{font-size: 60px;}
+}
+#w{
+   color: deeppink ;
+}
+#e{
+   color: darkblue ;
+}
+#l{
+   color: red ;
+}
+#c{
+    color: yellow ;
+}
+#o{
+   color: seagreen;
+}
+#m{
+    color: rebeccapurple ;
+}
+#e-second{
+    color: orangered;
+}
+h3{
+   color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+ padding: 30px;
+}
+.btn-style{
+   
+        min-width: 130px;
+        height: 40px;
+        color: black;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        background-size: 120% auto;
+        background-image: linear-gradient(315deg, #43cea2 0%, #185a9d 75%);
+        margin-bottom: 30px;
+        margin-left: 30px;
+      }
+     
+
+      .btn-center{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 10px;
+      }
+      a{
+          text-decoration: none;
+          color: white;
+      }
+      .container{
+      margin-top: 130px;
+      border: 1px solid lightskyblue;
+      border-radius: 20px;
+background-image: linear-gradient(white,rgb(154, 221, 243));
+
+     
+      }
+    
